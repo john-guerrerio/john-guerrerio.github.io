@@ -1,115 +1,75 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
+@inproceedings{whenDebiasingBackfires,
+  title     = {When Debiasing Backfires: Counterintuitive Side Effects of Preprocessing-Based Stereotype Mitigation},
+  author    = {Zheng, Yahan and Guerrerio, John J. and Vosoughi, Soroush and Ma, Weicheng},
+  booktitle = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics},
+  year      = {2026},
+  abbr      = {ACL},
+  pdf       = {https://arxiv.org/pdf/2607.07937},
+  abstract  = {Preprocessing-based methods for stereotype mitigation, such as pre-/post-training on debiased corpora, are widely used in NLP. While these approaches reduce measurable stereotypes for targeted groups, we find they often induce unintended shifts-side effects, where stereotyping or counter-stereotyping can increase relative to neutral baselines for other demographics, including across unrelated demographic categories. We demonstrate these side effects across two model families (encoder-only and decoder-only), multiple preprocessing strategies (removing stereotypical sentences, removing group mentions, and swapping group references), and both pre- and post-training at different data scales on Wikipedia. Standard benchmarks frequently miss these shifts. Using attention-rollout analysis, we observe that such side effects are not accompanied by large changes in attention flow, complicating mechanistic explanations. We discuss implications for evaluation, provide actionable diagnostics, and argue for side-effect-aware, transparent mitigation practices.},
+  selected  = {true},
+  preview   = {when_debiasing_backfires.jpeg},
+  bibtex_show = {true}
 }
 
-@book{einstein1956investigations,
-  bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+@inproceedings{espanStereo,
+  title     = {Scalable and Culturally Specific Stereotype Dataset Construction via Human-LLM Collaboration},
+  author    = {Ma*, Weicheng and Guerrerio*, John and Vosoughi, Soroush},
+  booktitle = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2025},
+  abbr      = {EMNLP},
+  pdf       = {https://arxiv.org/pdf/2607.07895},
+  abstract  = {Research on stereotypes in large language models (LLMs) has largely focused on English-speaking contexts, due to the lack of datasets in other languages and the high cost of manual annotation in underrepresented cultures. To address this gap, we introduce a cost-efficient human-LLM collaborative annotation framework and apply it to construct EspanStereo, a Spanish-language stereotype dataset spanning multiple Spanish-speaking countries across Europe and Latin America. EspanStereo captures both well-documented stereotypes from prior literature and culturally specific biases absent from English-centric resources. Using LLMs to generate candidate stereotypes and in-culture annotators to validate them, we demonstrate the framework's effectiveness in identifying nuanced, region-specific biases. Our evaluation of Spanish-supporting LLMs using EspanStereo reveals significant variation in stereotypical behavior across countries, highlighting the need for more culturally grounded assessments. Beyond Spanish, our framework is adaptable to other languages and regions, offering a scalable path toward multilingual stereotype benchmarks. This work broadens the scope of stereotype analysis in LLMs and lays the groundwork for comprehensive cross-cultural bias evaluation.},
+  selected  = {true},
+  preview   = {espanstereo.jpeg},
+  bibtex_show = {true}
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
-  bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+@inproceedings{decisionDrivenCalibration,
+  title     = {Decision-Driven Calibration for Cost-Sensitive Uncertainty Quantification},
+  author    = {Canal, Greg and Leung, Vladimir and Guerrerio, John J. and Sage, Philip and Wang, I-Jeng},
+  booktitle = {NeurIPS 2024 Workshop on Bayesian Decision-making and Uncertainty},
+  year      = {2024},
+  abbr      = {NeurIPS BDU},
+  pdf       = {https://openreview.net/pdf?id=RBlQKY10KY},
+  abstract  = {In recent years, the ability of artificial intelligence (AI) systems to quantify their uncertainty has become paramount in building trustworthy AI. In standard uncertainty quantification (UQ), AI uncertainty is calibrated such that the confidence of its predictions matches the statistics of the underlying data distribution. However, this method of calibration does not take into consideration the direct influence of UQ on the subsequent actions taken by downstream decision-makers. Here we demonstrate an alternate, decision-driven method of UQ calibration that explicitly minimizes the incurred costs of downstream decisions. After formulating decision-driven calibration as an optimization problem with respect to a known decision-maker, we show in a simulated search-and-rescue scenario how decision-driven temperature scaling can lead to lower incurred decision costs.},
+  selected  = {true},
+  preview   = {decision_driven_calibration.jpeg},
+  bibtex_show = {true}
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
+@article{bugsFramework,
+  title       = {Labeling Software Security Vulnerabilities},
+  author      = {Bojanova, Irena and Guerrerio, John J.},
+  journal     = {IT Professional},
+  volume      = {25},
+  number      = {5},
+  pages       = {64--70},
+  year        = {2023},
+  doi         = {10.1109/MITP.2023.3314368},
+  abbr        = {IT Pro},
+  pdf         = {https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=956539},
+  abstract    = {Labeling software security vulnerabilities would benefit greatly modern artificial intelligence cybersecurity research. The National Vulnerability Database (NVD) partially achieves this via assignment of Common Weakness Enumeration (CWE) entries to Common Vulnerabilities and Exposures (CVE) entries. In this work, we explore utilization of the Bugs Framework (BF) formalism for systematic and comprehensive CVE labeling. We specify all memory related CWEs via BF weaknesses and examine the suitability of these formalisms to describe the corresponding CVEs mapped by NVD. We also identify the similarities and overlaps in CWEs that introduce ambiguities in NVD assignments.},
+  selected    = {false},
+  preview     = {bugs_framework.jpeg},
+  bibtex_show = {true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
+@article{litCovid,
+  title       = {{LitCovid} in 2022: an information resource for the {COVID-19} literature},
+  author      = {Chen*, Qingyu and Allot*, Alexis and Leaman, Robert and Wei, Chih-Hsuan and Aghaarabi, Elaheh and Guerrerio, John J. and Xu, Lilly and Lu, Zhiyong},
+  journal     = {Nucleic Acids Research},
+  volume      = {51},
+  number      = {D1},
+  pages       = {D1512--D1518},
+  year        = {2023},
+  doi         = {10.1093/nar/gkac1005},
+  abbr        = {NAR},
+  pdf         = {https://academic.oup.com/nar/article-pdf/51/D1/D1512/48441226/gkac1005.pdf},
+  abstract    = {LitCovid (https://www.ncbi.nlm.nih.gov/research/coronavirus/)—first launched in February 2020—is a first-of-its-kind literature hub for tracking up-to-date published research on COVID-19. The number of articles in LitCovid has increased from 55 000 to ∼300 000 over the past 2.5 years, with a consistent growth rate of ∼10 000 articles per month. In addition to the rapid literature growth, the COVID-19 pandemic has evolved dramatically. For instance, the Omicron variant has now accounted for over 98% of new infections in the United States. In response to the continuing evolution of the COVID-19 pandemic, this article describes significant updates to LitCovid over the last 2 years. First, we introduced the long Covid collection consisting of the articles on COVID-19 survivors experiencing ongoing multisystemic symptoms, including respiratory issues, cardiovascular disease, cognitive impairment, and profound fatigue. Second, we provided new annotations on the latest COVID-19 strains and vaccines mentioned in the literature. Third, we improved several existing features with more accurate machine learning algorithms for annotating topics and classifying articles relevant to COVID-19. LitCovid has been widely used with millions of accesses by users worldwide on various information needs and continues to play a critical role in collecting, curating and standardizing the latest knowledge on the COVID-19 literature.},
+  preview     = {litcovid.jpeg},
+  selected    = {false},
+  bibtex_show = {true}
 }
