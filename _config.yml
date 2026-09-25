@@ -351,7 +351,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [John]
+  last_name: [Guerrerio]
   first_name: [John, John J.]
 
   style: apa
