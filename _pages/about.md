@@ -35,10 +35,8 @@ Before Hopkins, I graduated as valedictorian from [Dartmouth College](https://ho
 As an undergraduate, I was supported by a [Goldwater Scholarship](https://goldwaterscholarship.gov) and was a [Rhodes Scholarship](https://www.rhodeshouse.ox.ac.uk) finalist. I also worked across a range of fields: security and privacy with [Tim Pierson](https://tjp.cs.dartmouth.edu/) and [O. Sami Saydjari](https://samisaydjari.com/) at Dartmouth, NLP for health with [Zhiyong Lu](https://www.ncbi.nlm.nih.gov/research/bionlp/) and [Qingyu Chen](https://sites.google.com/view/qingyuchen/home) at the [NIH](https://www.nih.gov), ML for national security with [Greg Canal](https://www.linkedin.com/in/gregory-canal/) and [I-Jeng Wang](https://www.cs.jhu.edu/~ijwang/) at [JHU APL](https://www.jhuapl.edu), and economic consulting at [Cornerstone Research](https://www.cornerstone.com).
 
 <style>
-  .publications .author em {
+  .publications ol.bibliography li .author > em {
     font-weight: bold;
-    font-style: normal;
     border-bottom: none;
-    text-decoration: none;
   }
 </style>

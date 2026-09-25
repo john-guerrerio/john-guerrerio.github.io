@@ -14,10 +14,8 @@ nav_order: 1
 </div>
 
 <style>
-  .publications .author em {
+  .publications ol.bibliography li .author > em {
     font-weight: bold;
-    font-style: normal;
     border-bottom: none;
-    text-decoration: none;
   }
 </style>
